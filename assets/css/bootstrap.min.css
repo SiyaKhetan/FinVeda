@@ -40,7 +40,6 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
 }
 html {
   font-family: sans-serif;
@@ -235,8 +234,11 @@ input {
 }
 button,
 select {
-  text-transform: none;
+
+  text-transform:  none;
+
 }
+
 select {
   word-wrap: normal;
 }
@@ -246,12 +248,16 @@ select {
 button {
   -webkit-appearance: button;
 }
+
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
-  cursor: pointer;
+
+  cursor:  pointer;
+
 }
+
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner,
@@ -523,14 +529,19 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 .row {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap; 
   margin-right: -15px;
   margin-left: -15px;
 }
+
+
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -1095,9 +1106,7 @@ pre code {
   .offset-md-2 {
     margin-left: 16.666667%;
   }
-  .offset-md-3 {
-    margin-left: 25%;
-  }
+  
   .offset-md-4 {
     margin-left: 33.333333%;
   }
@@ -2872,6 +2881,8 @@ input[type="submit"].btn-block {
 .dropright,
 .dropup {
   position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
 }
 .dropdown-toggle {
   white-space: nowrap;
@@ -6154,6 +6165,7 @@ button.bg-dark:hover {
 .d-flex {
   display: -ms-flexbox !important;
   display: flex !important;
+  color: black;
 }
 .d-inline-flex {
   display: -ms-inline-flexbox !important;
@@ -7176,7 +7188,7 @@ button.bg-dark:hover {
   width: 75% !important;
 }
 .w-100 {
-  width: 100% !important;
+  width: 95% !important;
 }
 .w-auto {
   width: auto !important;
